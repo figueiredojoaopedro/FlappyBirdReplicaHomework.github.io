@@ -1,0 +1,123 @@
+header a
+{
+    text-decoration: none;
+    color: rgb(146, 146, 146);
+    font-size: 36pt;
+    background-color: #4B4864;
+    border: solid #4B4864;
+    border-radius: 3px;
+    padding: 0px 10px;
+}
+h1{
+    color: #fff;
+    font-size: 36pt;
+    margin: 0;
+}
+h2{
+    color: #fff;
+    font-size:100pt;
+    margin: 0;
+    margin-bottom: 3.6rem;
+    text-shadow:2px 2px #4D4D4D;
+    display: flex;
+    flex-flow: row wrap;
+}
+body
+{   
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 7.1875rem;
+    margin-right: 7.1875rem;
+    background-color: #24204A;
+}
+footer{
+    background-color: #C4C4C4;
+    margin-top: 3.6rem;
+    padding: 3.6rem 7.2rem;
+    border: solid 2rem #C4C4C4;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+footer h1{
+    display: flex;
+    flex-flow: row wrap;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 36pt;
+    color: black;
+    text-align: left;
+}
+footer p{
+    display: flex;
+    flex-flow: row wrap;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 15pt;
+    color: black;
+    text-align: left;
+}
+#divisoria{
+    display: flex;
+    margin: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logoEMenu
+{   
+    justify-content: space-between; 
+    display: flex;
+    margin: 0;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#canvas1
+{   
+    background-color: grey;
+    border: solid darkgrey;
+    border-radius: 2rem;
+}
+#loadGame{
+    width: min-content;
+    text-align: center;
+    font-size: 52pt;
+    color: white;
+    padding: 0 1rem;
+    background-color: #3F50E7;
+    border: solid #3F50E7;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem #30345A;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2.5rem;
+}   
+#loadGame:hover{
+    color: grey;
+}
+#things{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+#divCanvas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+#restart{
+    width: min-content;
+    text-align: center;
+    font-size: 52pt;
+    color: white;
+    padding: 0 1rem;
+    background-color: #3F50E7;
+    border: solid #3F50E7;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem #30345A;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2.5rem;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--PAGE INFO-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--TITLE BAR-->
+    <link rel="icon" href="./images/dinosur.png">
+    <title>João & Caio</title>
+    <!--Style sheets-->
+    <link rel="stylesheet" href="styleSheets/home.css">
+</head>
+<body>
+    <header>
+        <div id='logoEMenu'>
+            <h1>João & Caio</h1>
+            <a href="home.html">Home</a>
+            <a href="joguinho.html">Joguinho</a>
+            <a href="quemsomos.html">Quem somos?</a>
+        </div>
+        <img id = 'divisoria' src="images/Rectangle 13.png" alt="divisoria">
+    </header>
+    <!-------------------------------------------------------------------------------------->
+    <main>
+        <section id='firstSection'>
+            <!--I thought in this first div to organize the images in the side of the article and etc-->
+            <div id='left_container'>
+                <!--Just our logo in the first section-->
+                <h1 id='logo_firstSection'>João & Caio</h1>
+                <!--The little first article in the beginning-->
+                <article class='artigos'>
+                    O site feito, é um trabalho da faculdade, no caso, 
+                    Centro Universitário FEI na disciplina de desenvolvimento web. 
+                    O objetivo do trabalho era desenvolver um site com um jogo embarcado, só que feito no Canvas!
+                </article>
+                <!--button to play-->
+                <button id='play_button' onclick='playButton()'>Jogar!</button>
+            </div>
+            <div id='right_container'>
+                <img src="images/imagem1.png" alt="um trex e 2 pterodatius voando sobre um quadrado">
+            </div>
+        </section>
+        <section id='second_section'>
+            <img class='thick_divisory'src="images/Rectangle 17.png" alt="divisoria">
+            <div id='como_jogar'>
+                <h1>Como jogar?</h1>
+            </div>
+            <div>
+                <article class='artigos' id='left_article'>
+                    Você é uma nave e deve desviar de todos
+                    os obstáculos no caminho!
+                    Tome cuidado, porque caso toque em um, o jogo
+                    acaba!
+                </article>
+            </div>
+            <div>
+                <article class='artigos' id='right_article'>
+                    Para isso, a única tecla que deves apertar
+                    é o botão "w", o qual fará o seu boneco
+                    pular e assim desviar de todos obstáculos
+                </article>
+            </div>
+            <div>
+                <h2>Boa sorte jogador!</h2>
+            </div>
+            <img class='thick_divisory' src="images/Rectangle 17.png" alt="divisoria">
+        </section>
+    </main>
+    <!------------------------------------------------------------------------------------------>
+    <footer>
+        <div>
+            <h1>
+                Contato:
+            </h1>
+            <p>Nome: João Pedro Paulino Gomes de Figueiredo</p>
+            <p>Email: neewprojecti@gmail.com</p>
+            <p>linkdln: <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-de-figueiredo-066b00213/">www.linkedin.com/joão_pedro_de_figueiredo</a></p>
+            <p>Github: <a href="https://github.com/figueiredojoaopedro">https://github.com/figueiredojoaopedro</a></p>
+        </div>
+        <div>
+            <p>Nome: Caio Arnoni</p>
+            <p>Email: suricaio@hotmail.com</p>
+        </div>
+    </footer>
+    <script src="./scripts/home.js"></script>
+</body>
+</html>
